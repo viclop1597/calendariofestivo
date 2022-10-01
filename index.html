@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+    <h1> Calendario de días laborables</h1>
+    <h5> Instrucciones:</h5>
+    <h6>Debes de ingresar, numericamente, la fecha que deseas saber si es laborable (lunes a viernes) o no es laborable (sábado y domingo)</h6>
+
+    <hr>
+
+    <!-- Descripción -->
+    <div class="container text-center">
+
+        <div class="row my-5 justify-content-center">
+
+            <row class="col">
+                <label for="day" class="form-label" title="Escribe aquí un número">Día:</label>
+                <input placeholder="Escribe el día" type="number" id="day" class="text-center">
+            </row>
+            <row class="col">
+                <label for="month" class="form-label" title="Escribe aquí un número">Mes:</label>
+                <input placeholder="Escribe el día" type="number" id="month" class="text-center">
+            </row>
+            <row class="col">
+                <label for="year" class="form-label" title="Escribe aquí un número">Año:</label>
+                <input placeholder="Escribe el día" type="number" id="year" class="text-center">
+            </row>
+
+        </div>
+
+        <div class="row my-5 justify-content-center">
+            <div class="col-md-4">
+                <butoon class="btn btn-primary form-control" id="Datec" title="Tip: Dará si es festivo o no"> Presiona </butoon>
+            </div>
+        </div>
+
+        <div class="row my-5 justify-content-evenly">
+            <div class="col-md-12">
+                <label for="date" class="form-label">¿Es laborable o no?</label>
+                <input class="text-center" placeholder="¿?" type="text" id="date">
+            </div>
+        </div>
+
+    </div>
+
+<!-- Scripts de bootstrap & java -->
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="./scripts/funciones.js"></script> 
+
+</body>
+</html>
